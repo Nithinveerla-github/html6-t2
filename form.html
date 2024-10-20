@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="shortcut icon" href="./bahubali.jpg" size="16*16" type="image/x-icon">
+    
+</head>
+<body>
+    <form action="task3.html" method="get"style="width: 800px;"  style="background-color: rgb(201, 187, 170);">
+        <fieldset style="background-color: bisque;">
+            <legend style="font-weight: bolder;">STEP YOUR DETAILS</legend>
+            <label for="NAME">NAME:</label>
+            <input type="text" id="name" class="name" required pattern="[a-zA-Z\s]+" max="5" min="30">
+            <br>
+            <br>
+            <label for="E-mail">E-mail</label>
+            <input type="email" name="E-mail" id="E-mail" required pattern="[a-z\d.]+@[a-z]+\.[a-z]{2,}">
+            <br>
+            <br>
+            <label for="Phone:no">Phone:no</label>
+            <input type="tel" name="Phone:no" id="Phone:no"required min="10" pattern="\d{10}">
+            <a href="task3.html"><button>SUBMIT</button></a>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
